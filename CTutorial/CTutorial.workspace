@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CTutorial" Database="">
+  <Project Name="Marksheet" Path="Marksheet/Marksheet.project" Active="No"/>
+  <Project Name="Railway" Path="Railway/Railway.project" Active="Yes"/>
+  <Project Name="Grocery" Path="Grocery/Grocery.project" Active="No"/>
+  <Project Name="AddInMain" Path="AddInMain/AddInMain.project" Active="No"/>
+  <Project Name="AddUsingFunc" Path="AddUsingFunc/AddUsingFunc.project" Active="No"/>
+  <Project Name="HelloWorld" Path="HelloWorld/HelloWorld.project" Active="No"/>
+  <Project Name="LoginAttemptsUsingLoop" Path="LoginAttemptsUsingLoop/LoginAttemptsUsingLoop.project" Active="No"/>
+  <Project Name="PassByValRef" Path="PassByValRef/PassByValRef.project" Active="No"/>
+  <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
+  <Project Name="PointerDemo" Path="PointerDemo/PointerDemo.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="Railway" ConfigName="Debug"/>
+      <Project Name="Marksheet" ConfigName="Debug"/>
+      <Project Name="" ConfigName="Debug"/>
+      <Project Name="Railway" ConfigName="Debug"/>
+      <Project Name="Grocery" ConfigName="Debug"/>
+      <Project Name="AddInMain" ConfigName="Debug"/>
+      <Project Name="AddUsingFunc" ConfigName="Debug"/>
+      <Project Name="HelloWorld" ConfigName="Debug"/>
+      <Project Name="LoginAttemptsUsingLoop" ConfigName="Debug"/>
+      <Project Name="PassByValRef" ConfigName="Debug"/>
+      <Project Name="PointerArithmetic" ConfigName="Debug"/>
+      <Project Name="PointerDemo" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Railway" ConfigName="Release"/>
+      <Project Name="Marksheet" ConfigName="Release"/>
+      <Project Name="" ConfigName="Release"/>
+      <Project Name="Railway" ConfigName="Release"/>
+      <Project Name="Grocery" ConfigName="Release"/>
+      <Project Name="AddInMain" ConfigName="Release"/>
+      <Project Name="AddUsingFunc" ConfigName="Release"/>
+      <Project Name="HelloWorld" ConfigName="Release"/>
+      <Project Name="LoginAttemptsUsingLoop" ConfigName="Release"/>
+      <Project Name="PassByValRef" ConfigName="Release"/>
+      <Project Name="PointerArithmetic" ConfigName="Release"/>
+      <Project Name="PointerDemo" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

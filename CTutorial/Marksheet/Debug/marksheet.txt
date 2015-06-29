@@ -1,0 +1,26 @@
+
+
+Student Details:
+----------------
+
+Student Name: Saurabh Khare
+Student Roll No.: 12345
+========================================
+
+Your Subjectwise Marks:
+-----------------------
+
+English	Maths	C-Prog	Java	Database
+
+87/100	89/100	89/100	87/100	80/100
+========================================
+
+========================================
+Total Marks = 432/500
+========================================
+Average Marks = 86/100
+========================================
+Percentage: 86.40 %
+========================================
+
+Grade: Congratulations 'Saurabh Khare' you have passed with 'Distinction'!
