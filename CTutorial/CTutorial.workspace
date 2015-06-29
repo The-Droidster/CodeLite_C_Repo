@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CTutorial" Database="">
   <Project Name="Marksheet" Path="Marksheet/Marksheet.project" Active="No"/>
-  <Project Name="Railway" Path="Railway/Railway.project" Active="Yes"/>
-  <Project Name="Grocery" Path="Grocery/Grocery.project" Active="No"/>
+  <Project Name="Railway" Path="Railway/Railway.project" Active="No"/>
+  <Project Name="Grocery" Path="Grocery/Grocery.project" Active="Yes"/>
   <Project Name="AddInMain" Path="AddInMain/AddInMain.project" Active="No"/>
   <Project Name="AddUsingFunc" Path="AddUsingFunc/AddUsingFunc.project" Active="No"/>
   <Project Name="HelloWorld" Path="HelloWorld/HelloWorld.project" Active="No"/>

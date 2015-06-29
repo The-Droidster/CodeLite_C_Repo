@@ -1,3 +1,5 @@
+//Program to demonstrate the billing process of a grocery shop
+
 //Header Files
 #include <stdio.h>
 #include <conio.h>
@@ -28,9 +30,11 @@ int main()
         printf("\nSelect product number %d: ", count - (num - 1)); //Prompt user to select the next product.
         scanf("%d", &ch);
         sum = sum + rate(ch,count - (num - 1)); //total is calculated here. 
-                              //rate(ch) returns the price of the current user selected product 
-                              //which is added to current total
-        num = num - 1;         //iterate loop 'num' times
+												//rate(int, int) returns the price of the current user selected product 
+												//which is iteratively added to the current total
+												//count - (num - 1) calculates the serial number of the product, 
+												//to be displayed in selected product list
+        num = num - 1;	//iterate loop 'num' times
     } while(num >= 1);
     
     //Bill generation and calculation of tax and grand total, could be done in a separate module
@@ -46,12 +50,16 @@ int main()
 }
 
 float rate(int ch, int ser)  //function to return the price of the product currently selected by user
-{
+{	
+	//rate takes 2 arguments by value, 
+	//1. user choice(ch)
+	//2. serial number(ser) of the choice to display a chronological list
+	//ser ie. the serial number is calculated and passed in main as count - (num - 1)
 	switch(ch)
 	{
 		case 1:
-		printf("\t\t\t\t%d. Product 1.\t\t\t100.00 Rs\n",ser);
-		return 100; //return price of product 1
+		printf("\t\t\t\t%d. Product 1.\t\t\t100.00 Rs\n",ser); //ser prints the serial number in Selected products list
+		return 100; //return price of product 1 to be added to sum in main
 
 		case 2:
 		printf("\t\t\t\t%d. Product 2.\t\t\t200.00 Rs\n",ser);
