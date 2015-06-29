@@ -30,10 +30,10 @@ int main()
         printf("\nSelect product number %d: ", count - (num - 1)); //Prompt user to select the next product.
         scanf("%d", &ch);
         sum = sum + rate(ch,count - (num - 1)); //total is calculated here. 
-												//rate(int, int) returns the price of the current user selected product 
-												//which is iteratively added to the current total
-												//count - (num - 1) calculates the serial number of the product, 
-												//to be displayed in selected product list
+						//rate(int, int) returns the price of the current user selected product 
+						//which is iteratively added to the current total
+						//count - (num - 1) calculates the serial number of the product, 
+						//to be displayed in selected product list
         num = num - 1;	//iterate loop 'num' times
     } while(num >= 1);
     
