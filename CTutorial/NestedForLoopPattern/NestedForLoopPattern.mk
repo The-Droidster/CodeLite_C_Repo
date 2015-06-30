@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Grocery
+ProjectName            :=NestedForLoopPattern
 ConfigurationName      :=Debug
 WorkspacePath          := "C:\Users\Saurabh\Documents\CodeLite\Workspaces\CTutorial"
-ProjectPath            := "C:\Users\Saurabh\Documents\CodeLite\Workspaces\CTutorial\Grocery"
+ProjectPath            := "C:\Users\Saurabh\Documents\CodeLite\Workspaces\CTutorial\NestedForLoopPattern"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Grocery.txt"
+ObjectsFileList        :="NestedForLoopPattern.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -90,7 +90,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Saurabh/Documents/CodeLite/Workspaces/CTutorial/Grocery/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/Saurabh/Documents/CodeLite/Workspaces/CTutorial/NestedForLoopPattern/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM "main.c"
 

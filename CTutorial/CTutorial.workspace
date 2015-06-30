@@ -2,7 +2,7 @@
 <CodeLite_Workspace Name="CTutorial" Database="">
   <Project Name="Marksheet" Path="Marksheet/Marksheet.project" Active="No"/>
   <Project Name="Railway" Path="Railway/Railway.project" Active="No"/>
-  <Project Name="Grocery" Path="Grocery/Grocery.project" Active="Yes"/>
+  <Project Name="Grocery" Path="Grocery/Grocery.project" Active="No"/>
   <Project Name="AddInMain" Path="AddInMain/AddInMain.project" Active="No"/>
   <Project Name="AddUsingFunc" Path="AddUsingFunc/AddUsingFunc.project" Active="No"/>
   <Project Name="HelloWorld" Path="HelloWorld/HelloWorld.project" Active="No"/>
@@ -10,6 +10,7 @@
   <Project Name="PassByValRef" Path="PassByValRef/PassByValRef.project" Active="No"/>
   <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
   <Project Name="PointerDemo" Path="PointerDemo/PointerDemo.project" Active="No"/>
+  <Project Name="NestedForLoopPattern" Path="NestedForLoopPattern/NestedForLoopPattern.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Railway" ConfigName="Debug"/>
@@ -24,6 +25,7 @@
       <Project Name="PassByValRef" ConfigName="Debug"/>
       <Project Name="PointerArithmetic" ConfigName="Debug"/>
       <Project Name="PointerDemo" ConfigName="Debug"/>
+      <Project Name="NestedForLoopPattern" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Railway" ConfigName="Release"/>
@@ -38,6 +40,7 @@
       <Project Name="PassByValRef" ConfigName="Release"/>
       <Project Name="PointerArithmetic" ConfigName="Release"/>
       <Project Name="PointerDemo" ConfigName="Release"/>
+      <Project Name="NestedForLoopPattern" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
