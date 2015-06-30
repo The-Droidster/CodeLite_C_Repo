@@ -12,8 +12,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\Saurabh\Documents\CodeLite\Workspaces\CTutorial\Grocery\main.c" Name="FileName"/>
-      <int Value="18" Name="FirstVisibleLine"/>
-      <int Value="15" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="14" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
