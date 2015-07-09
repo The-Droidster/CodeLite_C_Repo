@@ -10,7 +10,10 @@
   <Project Name="PassByValRef" Path="PassByValRef/PassByValRef.project" Active="No"/>
   <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
   <Project Name="PointerDemo" Path="PointerDemo/PointerDemo.project" Active="No"/>
-  <Project Name="NestedForLoopPattern" Path="NestedForLoopPattern/NestedForLoopPattern.project" Active="Yes"/>
+  <Project Name="NestedForLoopPattern" Path="NestedForLoopPattern/NestedForLoopPattern.project" Active="No"/>
+  <Project Name="Exit" Path="Exit/Exit.project" Active="No"/>
+  <Project Name="Recursion" Path="Recursion/Recursion.project" Active="No"/>
+  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Railway" ConfigName="Debug"/>
@@ -26,6 +29,9 @@
       <Project Name="PointerArithmetic" ConfigName="Debug"/>
       <Project Name="PointerDemo" ConfigName="Debug"/>
       <Project Name="NestedForLoopPattern" ConfigName="Debug"/>
+      <Project Name="Exit" ConfigName="Debug"/>
+      <Project Name="Recursion" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Railway" ConfigName="Release"/>
@@ -41,6 +47,9 @@
       <Project Name="PointerArithmetic" ConfigName="Release"/>
       <Project Name="PointerDemo" ConfigName="Release"/>
       <Project Name="NestedForLoopPattern" ConfigName="Release"/>
+      <Project Name="Exit" ConfigName="Release"/>
+      <Project Name="Recursion" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

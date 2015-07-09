@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ NestedForLoopPattern - Debug ]----------"
-	@cd "NestedForLoopPattern" && $(MAKE) -f  "NestedForLoopPattern.mk"
+	@echo "----------Building project:[ Arrays - Debug ]----------"
+	@cd "Arrays" && $(MAKE) -f  "Arrays.mk"
 clean:
-	@echo "----------Cleaning project:[ NestedForLoopPattern - Debug ]----------"
-	@cd "NestedForLoopPattern" && $(MAKE) -f  "NestedForLoopPattern.mk" clean
+	@echo "----------Cleaning project:[ Arrays - Debug ]----------"
+	@cd "Arrays" && $(MAKE) -f  "Arrays.mk" clean
