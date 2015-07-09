@@ -13,7 +13,8 @@
   <Project Name="NestedForLoopPattern" Path="NestedForLoopPattern/NestedForLoopPattern.project" Active="No"/>
   <Project Name="Exit" Path="Exit/Exit.project" Active="No"/>
   <Project Name="Recursion" Path="Recursion/Recursion.project" Active="No"/>
-  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="Yes"/>
+  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="No"/>
+  <Project Name="Structure" Path="Structure/Structure.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Railway" ConfigName="Debug"/>
@@ -32,6 +33,7 @@
       <Project Name="Exit" ConfigName="Debug"/>
       <Project Name="Recursion" ConfigName="Debug"/>
       <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Structure" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Railway" ConfigName="Release"/>
@@ -50,6 +52,7 @@
       <Project Name="Exit" ConfigName="Release"/>
       <Project Name="Recursion" ConfigName="Release"/>
       <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Structure" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
