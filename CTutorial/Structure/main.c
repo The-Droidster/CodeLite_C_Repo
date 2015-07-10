@@ -46,6 +46,8 @@ int main()
     struct Employee emp2;                               // Another way, emp1 is already declared
     struct Employee emp3 = { "Saurabh", 3, 25, 80000 }; // Another way
     // Declaring the struct variable and initialising its member in a single line, follows order
+    //Inline initialisation of all members can be done only along with declaration
+    //emp 3 = { "Saurabh", 3, 25, 80000 }; is not allowed
 
     struct Student stu1;
     stu s1; // Another way, Allowed only since we used typedef for struct Student
@@ -206,7 +208,7 @@ void strArray(stu s[], int size) // Takes array of structures as parameter and t
 }
 
 void strArrayPtr(stu* sp, int size) // Takes base address of array of structures as parameter and the size of the array
-{                                   // alternatively, void strArray(struct Student s[], int);
+{                                   // alternatively, void strArrayPtr(struct Student* sp, int);
     // Process array of structures
     int i;
     stu* temp = sp; // temporarily hold address in sp(base address of array)

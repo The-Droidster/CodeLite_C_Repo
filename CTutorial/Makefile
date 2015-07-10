@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Structure - Debug ]----------"
-	@cd "Structure" && $(MAKE) -f  "Structure.mk"
+	@echo "----------Building project:[ NestedStructure - Debug ]----------"
+	@cd "NestedStructure" && $(MAKE) -f  "NestedStructure.mk"
 clean:
-	@echo "----------Cleaning project:[ Structure - Debug ]----------"
-	@cd "Structure" && $(MAKE) -f  "Structure.mk" clean
+	@echo "----------Cleaning project:[ NestedStructure - Debug ]----------"
+	@cd "NestedStructure" && $(MAKE) -f  "NestedStructure.mk" clean
