@@ -60,7 +60,7 @@ int main()
     struct Student stu1; // Can create multiple variables of type struct Student
     // Can be used to access members of struct Student
     /* Can be used to access members of struct Date via 
-    the member dob(which itself is of type struct Date) of struct Student*/
+       the member dob(which itself is of type struct Date) of struct Student*/
     // eg. stu1.dob.day = 10; as dob is a member of struct Student
     // But cannot access members of struct Date via a variable of type struct Date
     // eg stu1.dt.day = 10; is NOT allowed as dt is not a member of struct Student
@@ -72,7 +72,7 @@ int main()
     // Can be used to access members of struct Salary
     // Same as writing struct Salary s1; Use of typedef allows for the creation of an alias of the struct type
 
-    emp e1; // Can create multiple variables of type struct
+    emp e1; // Can create multiple variables of type struct Employee
             // Same as writing struct Employee e1; Use of typedef allows for the creation of an alias of the struct type
             // Can be used to access members of struct Employee
     /* Can be used to access members of struct Salary via 
